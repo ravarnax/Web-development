@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | E-commerce product page</title>
+
+</head>
+
+<body>
+
+  <nav>
+    <img src="images/icon-menu.svg" alt="" class="nav-menu">
+    <img src="images/logo.svg" alt="sneakers-logo" class="logo">
+    <ul class="left">
+      <li class="link">Collections</li>
+      <li class="link">Men</li>
+      <li class="link">Women</li>
+      <li class="link">About</li>
+      <li class="link">Contact</li>
+    </ul>
+    <picture>
+      <img src="images/icon-cart.svg" alt="icon-cart" class="cart">
+      <img src="images/image-avatar.png" alt="image-avatar" class="avatar">
+    </picture>
+  </nav>
+
+  <main>
+    <section class="left">
+      <picture class="productImage">
+        <img src="images/icon-previous.svg" alt="" class="leftArrow displayNone">
+        <img src="images/image-product-1.jpg" alt="product image-product-1" class="sneaker">
+        <img src="images/icon-next.svg" alt="" class="rightArrow displayNone">
+      </picture>
+      <picture class="tumbnails">
+        <img src="images/image-product-1-thumbnail.jpg" alt="image-product-1-thumbnail" class="product-1">
+        <img src="images/image-product-2-thumbnail.jpg" alt="image-product-2-thumbnail" class="product-2">
+        <img src="images/image-product-3-thumbnail.jpg" alt="image-product-3-thumbnail" class="product-3">
+        <img src="images/image-product-4-thumbnail.jpg" alt="image-product-4-thumbnail" class="product-4">
+      </picture>
+    </section>
+    <section class="right">
+      <h3 class="top-heading">Sneaker Company</h3>
+      <p class="heading">Fall Limited Edition <br> Sneakers</p>
+      <p class="description">
+        These low-profile sneakers are your perfect casual wear companion. Featuring a
+        durable rubber outer sole, they’ll withstand everything the weather can offer.
+      </p>
+      <p class="price">
+        <span class="price">$125.00</span> <span class="discount">50%</span> <br class="break"> <span
+          class="strikethrough">$250.00</span>
+      </p>
+      <section class="quantitySection">
+        <section class="quantityCounter">
+          <img src="images/icon-minus.svg" alt="minusIcon" class="minusIcon">
+          <span class="quantity">0</span>
+          <img src="images/icon-plus.svg" alt="plusIcon" class="plusIcon">
+        </section>
+        
+        <button class="addToCart">
+          <img src="images/icon-cart.svg" alt="" class="cart">
+          Add to cart
+        </button>
+      </section>
+    </section>
+  </main>
+
+</body>
+
+</html>
