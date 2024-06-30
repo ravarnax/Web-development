@@ -1,0 +1,31 @@
+.bold{
+    font-weight: bold;
+}
+.outfit{
+    font-family: 'Outfit', sans-serif;
+}
+.headColor{
+    color: var(--Nutmeg);
+}
+.headColor1{
+    color: var(--Dark_Raspberry);
+}
+.black{
+    color: var(--Dark_Charcoal);
+}
+.inline{
+    display: inline;
+}
+.margin{
+    margin: 30px 0;
+}
+
+/*
+      <ul>        
+        <li><span class="black">Calories</span><span class=" bold headColor nutri-val">277kcal</span></li><hr>
+        <li><span class="black">Carbs</span><span class="bold headColor nutri-val">0g</span></li><hr>
+        <li><span class="black">Protein</span><span class="bold headColor nutri-val">20g</span></li><hr>
+        <li><span class="black">Fat</span><span class="bold headColor nutri-val">22g</span></li>
+      
+      </ul>
+*/

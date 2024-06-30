@@ -1,0 +1,91 @@
+@import url('utilities_mob.css');
+*:root{
+    /*Primary*/
+        --Nutmeg: hsl(14, 45%, 36%);
+        --Dark_Raspberry: hsl(332, 51%, 32%);
+        
+    /*Neutral*/
+        --White: hsl(0, 0%, 100%);
+        --Rose_White: hsl(330, 100%, 98%);
+        --Eggshell: hsl(30, 54%, 90%);
+        --Light_Grey: hsl(30, 18%, 87%);
+        --Wenge_Brown: hsl(30, 10%, 34%);
+        --Dark_Charcoal: hsl(24, 5%, 18%)
+    }
+    body{
+        background: var(--Dark_Raspberry);
+        width:375px;
+        margin:0;
+    }
+    h1, h2{
+        font-family: 'Young serif', serif;
+    }
+    h2{
+        font-size: 1.5rem;
+    }
+    header{
+        background: var(--Light_Grey);
+
+    }
+    
+    header img{
+        width: 375px;
+        height: 200px;
+        object-fit: cover;
+        
+    }
+    
+    header p{
+        font-size: 16px;
+    }
+    .pink-shade{
+        width: 250px;
+        padding : 8px 38px 8px 25px;
+
+        margin: 20px;
+        background: var(--Rose_White);
+    }
+    header .ingredients{
+        line-height: 2rem;
+    }
+    header .instruction{
+        margin-right: 41px;
+    }
+    header .instruction ul{
+        padding-left: 23px;
+    }
+    
+    header .instruction li{
+        list-style: decimal;
+        
+    }
+    header .instruction li p{
+        margin-left: 10px;
+        font-weight: 400;
+    }
+    header .nutrition{
+        margin-bottom: 20px;
+        padding-bottom: 50px;
+    }
+    header .nutrition .table{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: auto;
+        row-gap: 5px;
+        margin-top: 15px;
+    } 
+    header .nutrition .table .one{
+        grid-column-start: 1;
+        grid-column-end: 2;
+        margin-left: 30px;
+    }
+    header .nutrition .table .two{
+        grid-column-start: 2;
+        grid-column-end: 3;
+    }
+    header .nutrition .table hr{
+        grid-column-start: 1;
+        grid-column-end: 3;
+        width: 300px;
+        height: 0.25px;
+    }
