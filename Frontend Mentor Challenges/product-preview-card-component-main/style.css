@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,100..900;1,9..144,100..900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+:root{
+    --primary: hsl(158, 36%, 37%);
+    --secondary:hsl(30, 38%, 92%); 
+    --tertiary: hsl(140, 21%, 14%);
+    --quadtiary:hsl(228, 12%, 48%);
+    --pure: hsl(0, 0%, 100%);
+}
+body{
+    background: var(--secondary);
+
+    justify-content: center;
+    align-items: center;
+    width: 375px;
+    height: 547px;
+    margin: px;
+    font-size: 14px;
+}
+header{
+    margin-top: 40px;
+    width: 350px;
+    background: var(--pure);
+    border: 1px var(--pure);
+    border-radius: 10px;
+}
+header .section{
+    margin: 20px;
+}
+header img{
+    width: 100%;
+    border-radius: 10px 10px 0 0;
+    object-fit: cover;
+}
+header h1, span.h1{
+    font-family: "Fraunces", serif;
+}
+header h1{
+    margin-top: 0;
+    margin-bottom: 10px;
+    margin-right: 5px;
+}
+header h5,p, span.underline{
+    font-family: 'Monsterrat', sans-serif;
+    font-weight: 500;
+    color: var(--quadtiary);
+}
+header h5{
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    font-weight: 500;
+    color: var(--quadtiary);
+    margin-bottom: 10px;
+}
+header p{
+    padding-right: 30px;
+    font-size: 14px;
+}
+header span.h1{
+    font-size: 1.75rem;
+    font-weight: 700;
+    color: var(--primary);
+    margin-right: 10px;
+}
+header span.underline{
+    position: relative;
+    top: -5px;
+    font-size: 12px;
+    text-decoration:line-through;
+}
+
+header button{
+    margin-top: 20px;
+    width: 275px;
+    padding: 10px;
+    border: none;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--primary);
+    color: var(--pure);
+}
+header button:hover{
+    background: var(--tertiary);
+}
+header button h4{
+    font-family: 'Monsterrat', sans-serif;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    margin: 0;
+    margin-left: 10px;
+}
+header button img{
+    width: 15px;
+    object-fit: cover;
+}

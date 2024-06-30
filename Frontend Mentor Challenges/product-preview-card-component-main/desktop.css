@@ -1,0 +1,12 @@
+@import url(style.css);
+body{
+    width: 1440px;
+    display: flex;
+    align-items: center;
+}
+
+header{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+}
