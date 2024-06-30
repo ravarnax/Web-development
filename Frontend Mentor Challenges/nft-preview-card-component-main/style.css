@@ -1,0 +1,75 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+body{
+    margin: 0;
+    display: flex;
+    font-family: 'Outfit', sans-serif;
+    font-size: 18px;
+    background: hsl(217, 54%, 11%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.container{
+    max-width: 960px;
+    margin: 0 auto;
+}
+.wrapper{
+    width: 300px;
+    
+    padding: 20px;
+    background: hsl(216, 50%, 16%);
+    border-radius: 10px;
+}
+.wrapper > img{
+    width: 300px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;   
+}
+.wrapper > img:hover{
+    opacity: 50%;
+    background-image: url(images/icon-view.svg);
+
+}
+h1{
+    color: hsl(0, 0%, 100%);
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+h1:hover, .profile h5 span:hover{
+    color:hsl(178, 100%, 50%);
+}
+p, h5, span.second{
+    color: hsl(215, 51%, 70%);  
+}
+span.first{
+    color: hsl(178, 100%, 50%);
+    margin-right: 90px;
+}
+span.first img{
+    width: 10px;
+}
+span.second img{
+    width: 15px;
+}
+span.second{
+    margin: 10px 0;
+}
+.profile{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.profile img{
+    width: 30px;
+    border: 1px solid hsl(0, 0%, 100%);
+    border-radius: 50%;
+}
+.profile h5{
+    display: inline;
+}
+.profile span{
+    color: hsl(0, 0%, 100%);
+    cursor: pointer;
+}
