@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,300..900;1,300..900&display=swap');
+:root{
+    --paleBlue: hsl(225, 100%, 94%);
+    --brightBlue: hsl(245, 75%, 52%);
+    --veryPaleBlue: hsl(225, 100%, 98%);
+    --desaturatedBlue: hsl(224, 23%, 55%);
+    --darkBlue: hsl(223, 47%, 23%);
+}
+body{
+    margin:0;
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-size: 16px;
+    font-family: 'Red Hat Display', sans-serif;
+    background: var(--paleBlue);
+}
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background: white;
+    width: 350px;
+    border-radius: 15px;
+}
+.wrapper .image img{
+    border-radius: 15px 15px 0 0;
+    width: 350px;
+}
+.wrapper .content{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+.wrapper .content h1{
+    margin-bottom: 0;
+}
+
+.wrapper .content p{
+    color: var(--desaturatedBlue);
+}
+.wrapper .plan{
+    display: flex;
+    width: 250px;
+    padding: 15px 30px;
+    border-radius: 5%;
+    align-items: center;
+    justify-content: space-between;
+    background: var(--veryPaleBlue);
+}
+.wrapper .plan span h4{
+    font-weight: 700;
+    color: black;
+    font-size: 15px;
+    margin:0 0 2px;
+}
+.wrapper .plan span{
+    font-size: 15px;
+    
+    color: var(--desaturatedBlue);
+}
+.wrapper .plan a{
+    font-size: 12px;
+    font-weight: 700;
+}
+.wrapper .plan img{
+    width: 50px;
+    margin-right: 5px;
+}
+.wrapper .button{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.wrapper .button a.big{
+    background: var(--brightBlue);
+    color: var(--paleBlue);
+    padding: 15px 75px;
+    font-weight: 900;
+    text-decoration: none;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    box-shadow: 0 4px 5px 0 var(--desaturatedBlue), 0 6px 10px 0 var(--desaturatedBlue) ;
+}
+.wrapper .button a.small{
+    color: var(--desaturatedBlue);
+    font-weight: 900;
+    text-decoration: none;
+    margin-bottom: 30px;
+}
