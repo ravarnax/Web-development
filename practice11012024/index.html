@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="left">John's Portfolio</div>
+      <div class="right">
+        <ul>
+          <li><a href="/">Home</a></li>
+          <li><a href="/">About</a></li>
+          <li><a href="/">Services</a></li>
+          <li><a href="/">Projects</a></li>
+          <li><a href="/">Contact me</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="firstSection">
+      <div class="leftSection">
+        Hi, My name is <span class="purple">John</span>
+        <div>and I am a passionate Web Developer</div>
+        <span id="element"></span>
+
+      </div>
+      <div class="rightSection">
+        <img src="./icon/PngItem_1127587.png" alt="Developer image">
+      </div>
+    </section>
+
+    <hr>
+
+    <section class="secondSection">
+      <span class="textgrey">What I've done so far...</span>
+      <h1>Work Experience</h1>
+      <div class="box">
+        <div class="vertical">
+          <img class="image-top" src="./icon/PngItem_5526152.png" alt="Html logo">
+          <div class="vertical-title">
+            HTML Developer 
+            <span>(2018-2019)</span>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, quas dolorum mollitia nulla voluptatibus repellendus ipsum dolore, placeat animi labore saepe, officia exercitationem.
+          </div>
+        </div>
+        
+        <div class="vertical">
+          <img class="image-top node" src="./icon/nodejs.png" alt="Html logo">
+          <div class="vertical-title">
+            Node JS Developer
+            <span>(2019-2020)</span>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, quas dolorum mollitia nulla voluptatibus repellendus ipsum dolore, placeat animi labore saepe, officia exercitationem.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top" src="./icon/react.png" alt="Html logo">
+          <div class="vertical-title">
+            React Developer
+            <span>(2020-2021)</span>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, quas dolorum mollitia nulla voluptatibus repellendus ipsum dolore, placeat animi labore saepe, officia exercitationem.
+          </div>
+        </div>
+
+        <div class="vertical">
+          <img class="image-top java" src="./icon/java.png" alt="Html logo">
+          <div class="vertical-title">
+            Java Developer
+            <span>(2021-2023)</span>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Necessitatibus, quas dolorum mollitia nulla voluptatibus repellendus ipsum dolore, placeat animi labore saepe, officia exercitationem.
+          </div>
+        </div>
+        
+      </div>
+
+
+    </section>
+  </main>
+
+  <footer>
+    <div class="footer">
+      <div class="footer-first">
+        <h3>John's Developer Portfolio</h3>
+      </div>
+      <div class="footer-second">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+      <div class="footer-third">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>  
+      <div class="footer-fourth">
+        <ul>
+          <li>Home</li>
+          <li>About</li>
+          <li>Services</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-rights">
+      Copyright &#169 www.johnportfolio.com | All rights reserved.
+    </div>
+  </footer>
+  <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+  <script>
+    var typed = new Typed('#element', {
+      strings: ["Web develop.", "Graphic Designing..", "UX Designer..."],
+      typeSpeed: 60, 
+    });
+  </script>
+</body>
+
+</html>
+
+
