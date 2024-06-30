@@ -1,0 +1,8 @@
+@import url(mobile.css);
+body{
+    width: 1440px;
+    height: 1095px;
+}
+.header{
+  margin-top: 75px;
+}

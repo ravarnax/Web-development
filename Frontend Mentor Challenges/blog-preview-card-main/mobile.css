@@ -1,0 +1,71 @@
+@import url(utilities.css);
+:root{
+    --primary: hsl(47, 88%, 63%);
+    --pure: hsl(0, 0%, 100%);
+    --secondary: hsl(0, 0%, 50%);
+    --tertiary: hsl(0, 0%, 7%);
+}
+body{
+    width: 375px;
+    height: 667px;
+    margin: 0;
+    font-family: 'Figtree', sans-serif;
+    background: var(--primary);
+    font-size: 14px;
+}
+p{
+    color: var(--secondary);
+}
+h2{
+    font-size: 0.8rem;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+h1{
+    font-size: 1.25rem;
+    cursor: pointer;
+}
+h1:hover{
+    color: var(--primary);
+    transition: all 0.3s ease-in-out;
+}
+
+.header{
+    width: 275px;
+    height: 450px;
+    margin: 90px auto;
+    padding: 10px 15px;    
+    background: var(--pure);
+    border: 2rem;
+    border-color: var(--tertiary);
+    border-radius: 15px;
+    box-shadow: 5px 5px;
+    transition: all 0.2s ease-in;
+
+}
+.header:hover{
+    box-shadow: 10px 10px;
+}
+.header .top img{
+    border-radius: 5%;
+    object-fit: cover;
+    width: 275px;
+    height: 200px;
+    margin: 5px 0;
+}
+.header .middle{
+    margin: 20px 0 0 0;
+}
+.header .middle span{
+    background: var(--primary);
+    padding: 5px 10px;
+    border-radius: 7%;
+}
+
+.header .bottom img{
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    margin-right: 10px;
+}
+
