@@ -1,0 +1,63 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.container {
+    /* background: url('images/bg-pattern-bottom.svg');     */
+    margin: 75px auto;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 100px;
+  text-align: center;
+}
+
+.card {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.top img {
+    border-radius: 10px 10px 0 0;
+}
+
+.middle img {
+    border-radius: 50%;
+    margin-top: -52px;
+    margin-bottom: 25px;
+    border: 4px solid #fff;
+}
+
+.bottom {
+    margin-bottom: 25px;
+    border-radius: 0 0 10px 10px;
+}
+
+.bottom h4 span.age,
+span.city,
+span.stats {
+    color: gray;
+}
+
+.bottom ul {
+    display: flex;
+    gap: 50px;
+
+}
+
+.bottom ul li {
+    list-style: none;
+    text-transform: uppercase;
+}
+
+.bottom ul li span.stats {
+    display: block;
+}
